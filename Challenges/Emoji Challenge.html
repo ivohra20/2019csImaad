@@ -7,26 +7,65 @@
          
             }
             #face{
-                
-            }
+                    height: 280px;
+                    width: 300px;
+                    border-radius: 50%;
+                    background-color: white;
+                    border-style: solid;
+                    border-color: black;
+                    border-width: 7px; 
+                    left: 5px
+                         }
             .eye{
-                
+                    height: 90px;
+                    width: 100px;
+                    background-color: black;
+                    border-radius: 50%;
+                    position: absolute; 
+                    top: 75px;
             }
             .pupil{
-                
+                    height: 20px;
+                    width: 20px;
+                    background-color: white;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 50%;
+                    left:50%;
+                    transform: translate(-50%,-50%)
             }
             #leftEye{
-                
+                right: 350px; 
             }
             #rightEye{
-                
+                right: 200px;
             }
             #mouth{
-                background: url('emojiMouth.png') no-repeat center center;
-                background-size:contain;
+                    height: 40px;
+                    width: 50px;
+                    background-color: black;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 50%;
+                    left:33.5%;
+                    transform: translate(-50%,-50%)
             }
             #tongue{
-          
+            }
+            .Ear{
+                height: 70px;
+                width: 75px;
+                background-color: black;
+                border-radius: 50%;
+                position: absolute;
+            }
+             #leftEar{
+                top: 1px;
+                right: 400px; 
+            }
+            #rightEar{
+                top: 1px;
+                right: 190px;
             }
         </style>
     </head>
@@ -41,6 +80,12 @@
             <div id='mouth'>
                 <div id='tongue'></div>
             </div>
+            <div id='Ear'>
+            <div id='leftEar' class='Ear'>
+            </div>
+            <div id='rightEar' class='Ear'>
+            </div>
         </div>
     </body>
 </html>
+
