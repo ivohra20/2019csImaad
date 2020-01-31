@@ -1,5 +1,3 @@
-Css
-
 @CHARSET "UTF-8";
 body{
     background-color: #060;
@@ -50,24 +48,26 @@ body{
 .car{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
     position: absolute;
 }
 
 #car1{
-    background-color: blue;
+    background: url('Car1.png')no-repeat center center;
+    background-size:contain;
     left: 100px;
-    top: 300px;
+    top: 295px;
 }
 
 #car2{
-    background-color: orange; 
+    background: url('Car2.png')no-repeat center center;
+    background-size:contain;
     left: 100px;
-    top: 305px;
+    top: 325px;
 }
 
 #car3{
-    background-color: purple;
+    background: url('car3.png')no-repeat center center;
+    background-size:contain;
     left: 100px;
-    top: 310px;
+    top: 350px;
 }
