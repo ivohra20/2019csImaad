@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+body{
+       background: url('zona.jpg')no-repeat center center;
+       bottom: 300px;
+}
+.player{
+        width: 50px;
+        height: 50px;
+}
+#player1{
+        background: url('1.png')no-repeat center center;
+        background-size: contain;
+
+}
+#player2{
+        background: url('2.png')no-repeat center center;       
+        background-size: contain;
+}
+#player3{
+        background: url('3.png')no-repeat center center;
+        background-size: contain;
+}
+#player4{
+        background: url('4.png')no-repeat center center;
+        background-size: contain;
+}
+#player5{
+        background: url('5.png')no-repeat center center;
+        background-size: contain;
+}
+.ball{
+        background: url('ball.jpg')no-repeat center center;
+        width: 50px;
+        height: 50 px;
+}
