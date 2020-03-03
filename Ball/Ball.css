@@ -1,7 +1,9 @@
 @CHARSET "UTF-8";
-body{
-       background: url('zona.jpg')no-repeat center center;
-       bottom: 300px;
+#court{
+       background: url('zona.png')no-repeat center center;
+       background-size: contain;
+       width: 1000px;
+       height: 1000px;
 }
 .player{
         width: 50px;
