@@ -3,6 +3,6 @@
 $('.type1').click(
     function(){
         var myColor = $(this).css("background-color");
-        $('.bar').css('background-color', myColor);
+        $('.bar').css('background-color','red', myColor);
     }
 );
